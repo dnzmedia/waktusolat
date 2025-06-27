@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #064e3b; /* emerald-900 */
+    background-image: linear-gradient(135deg, #064e3b 0%, #052e16 100%); /* emerald-900 to darker emerald */
+    color: #d1d5db; /* slate-300 */
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #fcd34d, #f59e0b); /* amber-300 to amber-500 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.2s ease-out forwards;
+}
+
+/* Hide scrollbar for modal list */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
