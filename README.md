@@ -1,3 +1,3 @@
-#Waktu Solat Malaysia
+Waktu Solat Malaysia
 
 Data dari e-Solat JAKIM.
